@@ -4,28 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Recording Log </title>
-       <link rel="stylesheet" type="text/css" href="studentlog.css">
+    <link rel="stylesheet" type="text/css" href="studentlog.css">
 </head>
 <body>
-    <h3>Daily Recording Log</h3>
-    <div class="caption-wrapper">
-        <div class="caption"> 
-            <p>Week Started.....</p>  
-            <p>Week Ending.....</p 
+    <h1>Daily Recording Log</h1>
+    <div id="wrapper">
+        <div class="caption-wrapper">
+            <div class="caption"> 
+                <h2 id="left">Week Started.....</h2>  
+                <h2 id="right">Week Ending.....</h2>
+            </div>
         </div>
     </div>
     <table>
-        <tr class="table-head">
-            <th>Day</th>
-            <th>Daily Recording of Work done</th>
-        </tr>
-        <tr class="table-items">
-            <td>Mon</td>
-            <td>Tue</td>
-            <td>Wed</td>
-            <td>Thur</td>
-            <td>Fri</td>
-         </tr>
+        <thead>
+            <tr>
+                <td><h3>DAY</h3></td>
+                <td><h3>DAILY RECORDING OF ACTIVITY</h3></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><h3>MONDAY</h3></td>
+                <td><input type="text" placeholder="Click to enter activity"></td>
+            </tr>
+            <tr>
+                <td><h3>TUESDAY</h3></td>
+                <td><input type="text" placeholder="Click to enter activity"></td>
+            </tr>
+            <tr>
+                <td><h3>WEDNESDAY</h3></td>
+                <td><input type="text" placeholder="Click to enter activity"></td>
+            </tr>
+            <tr>
+                <td><h3>THURSDAY</h3></td>
+                <td><input type="text" placeholder="Click to enter activity"></td>
+            </tr>
+            <tr>
+                <td><h3>FRIDAY</h3></td>
+                <td><input type="text" placeholder="Click to enter activity"></td>
+            </tr>
+        </tbody>
     </table>
 </body>
 </html>
