@@ -1,54 +1,50 @@
 .nav{
     width: 100%;
-    height: 70px;
+    height: 90px;
     display: flex;
+    font-size: 25px;
     flex-direction: row;
     background-color: #95e0ff;
     justify-content: space-between;
-      
+    margin-bottom: 20px;  
+    border: 1px solid brown;  
+    align-items: center;  
 }
+
 .logo{
-    width: 70px;
-    height: 70px;
+    width: 85px;
+    height: 85px;
+    margin-left: 25px;
 }
-.left-h{
-    display: flex;
-    flex-direction: row;
-    background-color: yellow;
-    justify-content: space-between;
-}
-.right-h{
-    dispaly: block;
-    background-color: pink;
-    gap: 10px;
-    padding: 2px;
-    height: 48%;
-}
-.button {
-  padding: 2px 6px;
-  text-align: right;
-  display: block;
-  font-size: 6px;
-  margin: 0;
+
+.nav > h1 {
+  margin-right: 300px;
 }
 
 body{
-    margin: 0px;
+    margin: 5px;
 }
+
 .middle {
-   
-    font-size: 15px;
-  overflow:auto;
-}
-
-.middle div {
-  width:25%;
-  float:left;
+  font-size: 15px;
+  justify-content: space-around;
   display: flex;
-  background-color: #dfffaa;
-  margin: 0;
-  padding: 0;
-  grid-template-columns: 33% 33% 33% 40%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color:rgba(107, 57, 109, 0.342);
+  font-size: 25px;
+  height: 400px;
+  align-self: auto;
+  box-sizing: 25%;
+  border: 1px solid black;
 }
 
+.middle > .row {
+background-color: rgba(226, 121, 36, 0.527);
+width: 22%;
+text-align: center;
+}
 
+.middle > .row > h3 {
+  margin-top: 150px;
+}
