@@ -1,0 +1,54 @@
+h1 {
+    text-align: center;
+    color: #4d402d;
+    font-family: Times New Roman, Times, serif;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; /* Ensures even spacing */
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #000000;
+    padding: 2px;
+    height: 90vh; /* Adjusts to viewport height */
+    width: 98%;
+    background-color: blue;
+}
+
+#wrapper h2 {
+    text-align: center;
+    margin: 0; /* Removes default margin */
+    padding: 10px; /* Adds padding for better spacing */
+}
+
+.one, .two, .three, .four {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: center;
+    width: 80%; /* Adjusts width for better centering in column layout */
+    margin: 10px 0;
+}
+
+.one {
+    background-color: #50ff00;
+}
+
+.two {
+    background-color: #ff55c7;
+}
+
+.three {
+    background-color: #ffaaca;
+}
+
+.four {
+    background-color: #7040ff;
+}
