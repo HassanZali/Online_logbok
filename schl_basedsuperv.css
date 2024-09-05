@@ -16,7 +16,7 @@ h1 {
     height: 70px;
     width: 99%;
     padding-bottom: 30px;
-    color: #0b021a91;
+    color: #4a1913;
     font-size: 200%;
     font-family: Times New Roman, serif;
 }
@@ -42,7 +42,6 @@ body {
     height: 50vh; 
     width: 99%;
     background-color: #d5c3a074;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 }
 
 .one, .two, .three, .four, .five {
@@ -51,15 +50,17 @@ body {
     color: #11100be8;
     border-radius: 5px; 
     cursor: pointer; /* Changes cursor to pointer */ 
-    font-size: 17px; 
+    font-size: 18px; 
     transition: background-color 0.3s ease; 
     border: none; 
     text-decoration: none; /* Remove underline from text */
     border: 1px solid #000000;
     padding-top: 65px;
-    padding-bottom: 35px;
+    padding-bottom: 45px;
     text-align: center;
     width: 19%;
     font-weight: bold;
-    height: 40%;
+    font-family: Georgia, serif;
+    height: 45%;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 }
