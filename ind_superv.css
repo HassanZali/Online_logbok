@@ -5,20 +5,31 @@ h1 {
     font-size: 180%;
 }
 
-.head {
-    margin-left: 3px;
-    margin-right: 3px;
-    border: 3px solid #000000;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-color: #9d9076a8;
-    height: 70px;
+.nav{
     width: 99%;
-    padding-bottom: 30px;
-    color: #0b021a91;
-    font-size: 200%;
-    font-family: Times New Roman, serif;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    background-color: #95e0ff;
+    justify-content: space-between;
+    margin-left: 3px;
+    margin-right: 3px; 
+    border: 1px solid brown;  
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;  
+}
+
+.logo{
+    width: 85px;
+    height: 85px;
+    margin-left: 25px;
+}
+
+.slogo{
+    width: 85px;
+    height: 85px;
+    margin-right: 25px;
 }
 
 body > head > h3 {
@@ -37,7 +48,7 @@ body {
     justify-content: space-around;
     margin-left: 3px;
     margin-right: 3px;
-    border: 3px solid #000000;
+    border: 1px solid #000000;
     padding-bottom: 35px; 
     height: 50vh; 
     width: 99%;
@@ -45,21 +56,26 @@ body {
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 }
 
-.one, .two, .three, .four, .five {
+.one {
     display: inline; 
-    background-color: #a4967baf; /* Button background color */ 
+    background-color: #433d3291; /* Button background color */ 
     color: #11100be8;
-    border-radius: 5px; 
-    cursor: pointer; /* Changes cursor to pointer */ 
-    font-size: 17px; 
-    transition: background-color 0.3s ease; 
+    border-radius: 4px; 
+    font-size: 23px; 
+    transition: background-color 0.2s ease; 
     border: none; 
     text-decoration: none; /* Remove underline from text */
     border: 1px solid #000000;
-    padding-top: 65px;
-    padding-bottom: 35px;
+    padding-top: 50px;
+    padding-bottom: 45px;
     text-align: center;
-    width: 19%;
+    width: 24%;
     font-weight: bold;
-    height: 40%;
+    font-family: Georgia, serif;
+    height: 45%;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.one:hover {
+    background: #81c2ddcb;
 }
