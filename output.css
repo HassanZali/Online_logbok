@@ -3,7 +3,7 @@
     height: 90px;
     display: flex;
     flex-direction: row;
-    background-color: #95e0ff;
+    background-color: #EDDFE0;
     justify-content: space-between;
     margin-left: 3px;
     margin-right: 3px; 
@@ -36,11 +36,11 @@
     padding-bottom: 35px; 
     height: 45vh; 
     width: 99%;
-    background-color: #f1da8d72;
+    background-color: #F5F5f7;
 }
 
 .nav > h1 {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 body{
@@ -49,7 +49,7 @@ body{
 
 .one {
     display: inline; 
-    background-color: #433d3291; /* Button background color */ 
+    background-color: #B7B7B7; /* Button background color */ 
     color: #11100be8;
     border-radius: 4px; 
     font-size: 23px; 
@@ -68,5 +68,5 @@ body{
 }
 
 .one:hover {
-    background: #81c2ddcb;
+    background: #46442ecb;
 }
