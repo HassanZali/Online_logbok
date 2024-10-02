@@ -3,7 +3,7 @@
     height: 90px;
     display: flex;
     flex-direction: row;
-    background-color: #EDDFE0;
+    background-color: #C5705D;
     justify-content: space-between;
     margin-left: 3px;
     margin-right: 3px; 
@@ -34,9 +34,9 @@
     border: 1px solid #000000;
     padding-top: 35px;
     padding-bottom: 35px; 
-    height: 45vh; 
+    height: 55vh; 
     width: 99%;
-    background-color: #F5F5f7;
+    background-color: #FCDC94;
 }
 
 .nav > h1 {
@@ -49,21 +49,21 @@ body{
 
 .one {
     display: inline; 
-    background-color: #B7B7B7; /* Button background color */ 
+    background-color: #EF9C66; /* Button background color */ 
     color: #11100be8;
-    border-radius: 4px; 
-    font-size: 23px; 
+    border-radius: 5px; 
+    font-size: 150%; 
     transition: background-color 0.2s ease; 
     border: none; 
     text-decoration: none; /* Remove underline from text */
     border: 1px solid #000000;
     padding-top: 5px;
-    padding-bottom: 45px;
+    padding-bottom: 40px;
     text-align: center;
-    width: 24%;
+    width: 22%;
     font-weight: bold;
     font-family: Georgia, serif;
-    height: 45%;
+    height: 50%;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 }
 

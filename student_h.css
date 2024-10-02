@@ -1,21 +1,33 @@
-.head {
-    margin-left: 3px;
-    margin-right: 3px;
-    border: 3px solid #0e101b;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-color: #9d9076a8;
-    height: 70px;
+.nav{
     width: 99%;
-    padding-bottom: 35px;
-    font-size: 200%;
-    font-family: Times New Roman, serif;
+    height: 95px;
+    display: flex;
+    flex-direction: row;
+    background-color: #EDDFE0;
+    justify-content: space-between;
+    margin-left: 3px;
+    margin-right: 3px; 
+    border: 1px solid brown;  
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}  
+
+.logo{
+    width: 85px;
+    height: 85px;
+    margin-left: 25px;
 }
 
-body > head > h3 {
+.slogo{
+    width: 85px;
+    height: 85px;
+    margin-right: 25px;
+}
+
+.nav > h1 {
     text-align: center;
     color: #24201ead;
+    font-size: 40px;
 }
 
 body {
@@ -42,7 +54,7 @@ body {
     color: #11100be8; 
     border-radius: 5px; 
     cursor: pointer; 
-    font-size: 18px; 
+    font-size: 25px; 
     transition: background-color 0.3s ease;/* Smooth transition on hover */ 
     border: none; 
     text-decoration: none; /* Remove underline from text */
@@ -51,7 +63,6 @@ body {
     padding-bottom: 45px;
     text-align: center;
     width: 19%; /* Adjusts width for better centering in column layout */
-    font-size: 110%;
     font-weight: bold;
     height: 45%;
     font-family: Georgia, serif;
@@ -61,7 +72,7 @@ body {
 body > h1 {
     font-family: Brush Script MT, Cursive;
     color: #230c09bf;
-    font-size: 180%;
+    font-size:  180%;
     text-align: center;
     
 }
