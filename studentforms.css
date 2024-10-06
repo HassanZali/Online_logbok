@@ -56,7 +56,7 @@ body {
     color: #11100be8; 
     border-radius: 4px; 
     cursor: pointer; 
-    font-size: 25px; 
+    font-size: 28px; 
     transition: background-color 0.3s ease;/* Smooth transition on hover */ 
     border: none; 
     text-decoration: none; /* Remove underline from text */
@@ -64,11 +64,16 @@ body {
     padding-top: 50px;
     padding-bottom: 45px;
     text-align: center;
-    width: 19%; /* Adjusts width for better centering in column layout */
+    width: 31%; /* Adjusts width for better centering in column layout */
     font-weight: bold;
     height: 45%;
     font-family: Georgia, serif;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+a {
+    text-decoration: none;
+    color: #910909d8;
 }
 
 .one:hover {

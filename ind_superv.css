@@ -1,8 +1,8 @@
 .h1 {
     text-align: center;
-    color: #968705ea;
-    font-family:Brush Script MT, Cursive;
-    font-size: 140%;
+    color: #1a180eea;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 90%;
 }
 
 .nav{
@@ -10,14 +10,14 @@
     height: 120px;
     display: flex;
     flex-direction: row;
-    background-color: #E6B9A6;
+    background-color: #dbb345c9;
     justify-content: space-between;
     margin-left: 3px;
     margin-right: 3px; 
     border: 1px solid brown;  
     align-items: center;
-    font-size: 75px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    font-size: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
 }
 
 .logo{
@@ -35,7 +35,7 @@
 .nav > h3 {
     text-align: center;
     color: #061422ee;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 body {
@@ -62,7 +62,7 @@ body {
     background-color: #E8B86D; /* Button background color */ 
     color: #11100be8;
     border-radius: 4px; 
-    font-size: 24px; 
+    font-size: 25px; 
     transition: background-color 0.2s ease; 
     border: none; 
     text-decoration: none; /* Remove underline from text */
@@ -70,11 +70,16 @@ body {
     padding-top: 50px;
     padding-bottom: 45px;
     text-align: center;
-    width: 20%;
+    width: 19%;
     font-weight: bold;
     font-family: Georgia, serif;
     height: 45%;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+a {
+    text-decoration: none;
+    color: #910909d8;
 }
 
 .one:hover {

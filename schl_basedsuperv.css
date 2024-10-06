@@ -3,20 +3,20 @@
     height: 120px;
     display: flex;
     flex-direction: row;
-    background-color: #E6B9A6;
+    background-color: #dbb345c9;
     justify-content: space-between;
     margin-left: 3px;
     margin-right: 3px; 
     border: 1px solid brown;  
     align-items: center;
-    font-size: 75px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    font-size: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
 }
 
 .nav > h3 {
     text-align: center;
     color: #061422ee;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .logo{
@@ -32,9 +32,9 @@
 }
 
 .h1 {
-    font-family: Brush Script MT, Cursive;
-    color: #968705ea;
-    font-size:  140%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:  #1a180eea;
+    font-size:  90%;
     text-align: center;
     
 }
@@ -52,26 +52,26 @@ body {
     margin-right: 3px;
     border: 1px solid #000000;
     padding-bottom: 35px; 
-    padding-top: 35px;
     height: 55vh; 
     width: 99%;
-    background-color: #d5c3a074;
+    background-color: #d8b16d9d;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 }
 
 .one {
     display: inline; 
-    background-color: #a4967baf; /* Button background color */ 
+    background-color:  #E8B86D; /* Button background color */ 
     color: #11100be8;
     border-radius: 4px; 
-    font-size: 24px; 
-    transition: background-color 0.3s ease; 
+    font-size: 25px; 
+    transition: background-color 0.2s ease; 
     border: none; 
     text-decoration: none; /* Remove underline from text */
     border: 1px solid #000000;
     padding-top: 50px;
     padding-bottom: 45px;
     text-align: center;
-    width: 20%;
+    width: 19%;
     font-weight: bold;
     font-family: Georgia, serif;
     height: 45%;
@@ -79,5 +79,5 @@ body {
 }
 
 .one:hover {
-    background: #95e0ff;
+    background:  #923c03cb;
 }
